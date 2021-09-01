@@ -1,6 +1,6 @@
 {
     "React Native Function Component": {
-        "prefix": "rnc",
+        "prefix": "rnfc",
         "body": [
             "import React, { ReactNode } from 'react';",
             "import {",
