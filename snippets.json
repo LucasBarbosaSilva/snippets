@@ -1,0 +1,60 @@
+{
+    "React Native Function Component": {
+        "prefix": "rnc",
+        "body": [
+            "import React, { ReactNode } from 'react';",
+            "import {",
+            "   View,",
+            "} from 'react-native'",
+            "",
+            "import { styles } from './styles';",
+            "",
+            "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}() {",
+            "  ",
+            "  return (",
+            "    <View>",
+            "",
+            "    </View>",
+            "  );",
+            "}"
+        ],
+        "description": "Create the structure of react native component by function"
+    },
+    "React Native Const Component": {
+        "prefix": "rncc",
+        "body": [
+            "import React, { ReactNode } from 'react';",
+            "import {",
+            "   View,",
+            "} from 'react-native'",
+            "",
+            "import { styles } from './styles';",
+            "",
+            "interface Props {",
+            "   ",
+            "}",
+            "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = ({}: Props) {",
+            "  ",
+            "  return (",
+            "    <View>",
+            "",
+            "    </View>",
+            "  );",
+            "}"
+        ],
+        "description": "Create the structure of react native component by constant"
+    },
+    "React Native Styles Sheet": {
+        "prefix": "rnss",
+        "body": [
+            "import { StyleSheet } from 'react-native';",
+            " ",
+            "export const styles = StyleSheet.create({",
+            "  container: {",
+            "    flex: 1,",
+            "  }",
+            "});"
+        ],
+        "description": "Create the structure of style sheet component"
+    }
+}
