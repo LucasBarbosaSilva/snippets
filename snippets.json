@@ -2,7 +2,7 @@
     "React Native Function Component": {
         "prefix": "rnfc",
         "body": [
-            "import React, { ReactNode } from 'react';",
+            "import React from 'react';",
             "import {",
             "   View,",
             "} from 'react-native'",
@@ -23,7 +23,7 @@
     "React Native Const Component": {
         "prefix": "rncc",
         "body": [
-            "import React, { ReactNode } from 'react';",
+            "import React from 'react';",
             "import {",
             "   View,",
             "} from 'react-native'",
@@ -33,7 +33,7 @@
             "interface Props {",
             "   ",
             "}",
-            "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = ({}: Props) {",
+            "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/} = ({}: Props) => {",
             "  ",
             "  return (",
             "    <View>",
